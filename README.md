@@ -29,9 +29,13 @@ python -m pip install selenium
 The script accepts the following arguments:
 
 > --driver: Path to chromedriver. By default it will look for chromedriver in the current directory
+
 > --directory: Data directory for chrome. Default is /var/tmp/chrome_reddit, but you can give any valid path as long as another instance of Chrome/Chromium browser isnt using it.
+
 > --login: If you want to use an account to browse reddit. If this flag is enabled, username and password must also be provided
+
 > --no-login: Scroll reddit without login
+
 > --wait: Seconds to wait before scrolling to the next post.
 
 ## Caveats:
