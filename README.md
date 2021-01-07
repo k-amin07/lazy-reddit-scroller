@@ -28,15 +28,15 @@ python -m pip install selenium
 ## Command Line Arguments:
 The script accepts the following arguments:
 
-> --driver: Path to chromedriver. By default it will look for chromedriver in the current directory
+- --driver: Path to chromedriver. By default it will look for chromedriver in the current directory
 
-> --directory: Data directory for chrome. Default is /var/tmp/chrome_reddit, but you can give any valid path as long as another instance of Chrome/Chromium browser isnt using it.
+- --directory: Data directory for chrome. Default is /var/tmp/chrome_reddit, but you can give any valid path as long as another instance of Chrome/Chromium browser isnt using it.
 
-> --login: If you want to use an account to browse reddit. If this flag is enabled, username and password must also be provided
+- --login: If you want to use an account to browse reddit. If this flag is enabled, username and password must also be provided
 
-> --no-login: Scroll reddit without login
+- --no-login: Scroll reddit without login
 
-> --wait: Seconds to wait before scrolling to the next post.
+- --wait: Seconds to wait before scrolling to the next post. Default is 3 seconds.
 
 ## Caveats:
 There are certain caveats to using this script. For instance you cannot stop scrolling unless you kill the script, which would also kill the browser instance. Feel free to add functionality to this script, this is just my lazy attempt at sitting back and enjoying Reddit. 
