@@ -12,7 +12,7 @@ parser.add_argument('--no-login', dest='login', action='store_false')
 parser.add_argument('--username', type=str, default='')
 parser.add_argument('--password', type=str, default='')
 parser.add_argument('--wait', type=int, default=3)
-parser.set_defaults(login=True)
+parser.set_defaults(login=False)
 args = parser.parse_args()
 
 options = Options()
